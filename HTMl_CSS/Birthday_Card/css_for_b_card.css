@@ -1,0 +1,35 @@
+
+
+body{
+    text-align: center;
+    background-color: #a2d2ff;
+    color: #ffffff;
+    font-family: Happy Monkey, cursive;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#birthday-image{
+    height: 150px;
+    width: 150px;
+    border-radius:50% ;
+    border: 5px solid pink;
+}
+
+#age{
+    background: pink;
+    padding:3px 8px;
+}
+
+#date{
+    background: pink;
+    padding:3px 8px;
+}
