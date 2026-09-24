@@ -26,10 +26,56 @@ h1, h2, h3, h4, p{
 
 #age{
     background: pink;
-    padding:3px 8px;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
 }
 
 #date{
     background: pink;
-    padding:3px 8px;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin-top:0px;
 }
+
+.gift-section{
+    margin-top:50px;
+}
+
+.gift-img{
+    background-image: url("../images/public-domain-vectors-zartG1exNlw-unsplash.jpg");
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    border-radius: 5px;
+    border: 5px solid white;
+    margin:0 auto;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+#happy:hover{
+    background-image: url("../images/Happy\ Joy\ GIF\ by\ DAZN.gif");
+    background-size: cover;
+}
+
+#react:hover{
+    background-image: url("../images/Flirty\ Reaction\ GIF\ by\ MOODMAN.gif");
+    background-size: cover;
+}
+
+#describe:hover{
+    background-image: url("../images/Smart\ Genius\ GIF\ by\ YoungerTV.gif");
+    background-size: cover;
+}
+
+#badass:hover{
+    background-image: url("../images/Badass\ Jujutsu\ Kaisen\ GIF.gif");
+    background-size: cover;
+}
+#cheers:hover{
+    background-image: url("../images/Excited\ Happy\ New\ Year\ GIF\ by\ HBO.gif");
+}
+
