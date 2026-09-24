@@ -5,6 +5,7 @@ body{
     background-color: #a2d2ff;
     color: #ffffff;
     font-family: Happy Monkey, cursive;
+    background: linear-gradient(#a2d2ff, rgb(167, 56, 167));
 }
 
 .header{
@@ -77,5 +78,9 @@ h1, h2, h3, h4, p{
 }
 #cheers:hover{
     background-image: url("../images/Excited\ Happy\ New\ Year\ GIF\ by\ HBO.gif");
+}
+
+a{
+    color:white
 }
 
