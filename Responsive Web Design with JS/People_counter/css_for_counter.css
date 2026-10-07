@@ -1,0 +1,47 @@
+body{
+    background-image: url("../../HTML_CSS/images/alex-heuvink-Yk7U1aYCPio-unsplash.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight:bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment_btn{
+    background-color: darkred;
+}
+
+#save_btn{
+    background-color: darkgreen;
+}
+
+#decrement_btn{
+    background-color: darkblue;
+}
+
+#save-el{
+    font-size: 25px;
+    margin-top: 10px;
+}
