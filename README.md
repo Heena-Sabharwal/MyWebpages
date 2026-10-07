@@ -11,7 +11,7 @@ This repo tracks my evolution from basic web fundamentals to modern utility-firs
 ### Current Tech Stack
 * **HTML5:** Semantic structure and accessible markup.
 * **CSS3:** Custom styles, Flexbox, CSS Grid, animations, and responsive design.
+* **JavaScript / ES6+:** Dynamic interactions and DOM manipulation.
 
 ### 🚀 Future Roadmap & Frameworks
-- [ ] **JavaScript / ES6+:** Dynamic interactions and DOM manipulation.
 - [ ] **Tailwind CSS:** Utility-first styling for fast UI development.
