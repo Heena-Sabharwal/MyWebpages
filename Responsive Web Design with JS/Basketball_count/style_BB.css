@@ -1,5 +1,5 @@
 main{
-    background-color: rgb(42, 42, 122);
+    background-color:#0D1B3D;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     text-align: center;
@@ -22,7 +22,7 @@ main{
 }
 
 .score-sections{
-    background-color: rgb(32, 32, 92);
+    background-color: #13295B;
     border:1px solid black;
     padding-bottom: 10px;
     width: 100%;
@@ -40,6 +40,13 @@ h2{
     margin: 0 auto;
     border-radius: 10px;
     margin-bottom: 20px;
+    border: 2px solid;
+}
+#home-score{
+    border-color: #3B82F6;
+}
+#away-score{
+    border-color: #EF4444;
 }
 
 button{
