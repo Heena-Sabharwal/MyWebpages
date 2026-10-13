@@ -1,0 +1,29 @@
+body{
+    font-family:'Trebuchet MS', sans-serif;
+    background-image: url("../../HTMl_CSS/images/blackjack.PNG");
+    background-size: cover;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h1{
+    color:goldenrod;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    background-color: goldenrod;
+    color: #016f32;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bold;
+}
