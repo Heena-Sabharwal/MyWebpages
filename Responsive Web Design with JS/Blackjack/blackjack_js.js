@@ -1,12 +1,17 @@
 let firstcard=10;
-let secondcard=11;
-let sumEl=document.getElementById("sum-el");
+let secondcard=6;
 let hasBlackjack=false;
 let isAlive=true;
-let sum=firstcard+secondcard
+let sum=firstcard+secondcard;
+let cards=[firstcard,secondcard]
+let sumEl=document.querySelector("#sum-el");
+let cardsEl=document.querySelector("#cards-el");
 let messageEl=document.getElementById("message-el");
 
 function startGame(){
+    renderGame();
+}
+function renderGame(){
     if(sum<21){
     messageEl.textContent="Do you want to draw a new card?";
     }
@@ -19,6 +24,16 @@ function startGame(){
         messageEl.textContent="You're out of the game!";
         isAlive=false;
     }
+    
+    sumEl.textContent = "Sum: "+ sum;
+    cardsEl.textContent="Cards: "
+    for(let i=0;i<cards.length;i++){
+        cardsEl.textContent+= cards[i] + " ";
+    }
+}
 
-    sumEl.textContent += sum;
+function newCard(){
+    cards.push(6);
+    sum+=6;
+    renderGame();
 }
