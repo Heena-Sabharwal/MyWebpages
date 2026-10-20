@@ -1,0 +1,7 @@
+body{
+    text-align: center;
+}
+
+#upper-div{
+    display: flexbox;
+}
